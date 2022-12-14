@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "meow",
+  "version": "${3}",
+
+  "name": "Meow :3",
+  "description": "best mod ever :3",
+  "authors": [
+    "creepyturnip"
+  ],
+  "contact": {
+    "homepage": "https://thiscatdoesnotexist.com/",
+    "sources": "https://thiscatdoesnotexist.com/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.meowmeow.meooooooooooooow.Meow"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

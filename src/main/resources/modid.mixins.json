@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.meowmeow.meooooooooooooow.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "TickMeowMixin",
+    "KeyboardMeowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
