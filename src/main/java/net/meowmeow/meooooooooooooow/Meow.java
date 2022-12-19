@@ -28,7 +28,7 @@ public class Meow implements ModInitializer {
 	}
 	public void onTick() {
 		if(MC.player != null) {
-			for (Mod module : ModuleManager.INSTANCE.GetEnabledModules()) {
+			for (Mod module : ModuleManager.INSTANCE.getModules()) {
 				module.onTick();
 			}
 		}
