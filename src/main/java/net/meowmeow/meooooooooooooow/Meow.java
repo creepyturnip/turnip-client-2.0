@@ -21,7 +21,7 @@ public class Meow implements ModInitializer {
 
 	public void onKeyPress(int key, int action) {
 		if (action == GLFW.GLFW_PRESS) {
-            for (Mod module : ModuleManager.INSTANCE.GetEnabledModules()) {
+            for (Mod module : ModuleManager.INSTANCE.getModules()) {
 				if (key == module.getKey()) module.toggle();
             }
         }
